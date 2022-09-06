@@ -9,7 +9,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Project2_API.Authentication;
-//using Project2_API.Models;
+using Project2_API.Models;
 using System.Text;
 
 namespace Project2_API
@@ -28,11 +28,11 @@ namespace Project2_API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-      //      services.AddDbContext<ConnectedOfficeContext>(options => options.UseSqlServer("name=ConnectionStrings:ConnStr"));
+            services.AddDbContext<dbp2Context>(options => options.UseSqlServer("name=ConnectionStrings:ConnStr"));
             services.AddSwaggerGen(c => {
                 c.SwaggerDoc("v2", new OpenApiInfo
                 {
-                    Title = "JWTToken_Auth_API",
+                    Title = "API-Project2-32737742",
                     Version = "v2"
                 }
 
@@ -78,7 +78,7 @@ namespace Project2_API
                 };
             });
         }
-
+                
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
@@ -94,7 +94,7 @@ namespace Project2_API
             }
             );
             app.UseSwagger();
-            app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "MyTest Demo"));
+            app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "API CMPG 323"));
         }
     }
 }
