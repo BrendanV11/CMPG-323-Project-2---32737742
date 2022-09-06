@@ -59,3 +59,14 @@ E:\Universiteit\Year 3\Semester 2\CMPG 323\API P2\P2 Clone\CMPG-323-Project-2---
 E:\Universiteit\Year 3\Semester 2\CMPG 323\API P2\P2 Clone\CMPG-323-Project-2---32737742\obj\Debug\netcoreapp3.1\Project2-API.dll
 E:\Universiteit\Year 3\Semester 2\CMPG 323\API P2\P2 Clone\CMPG-323-Project-2---32737742\obj\Debug\netcoreapp3.1\Project2-API.pdb
 E:\Universiteit\Year 3\Semester 2\CMPG 323\API P2\P2 Clone\CMPG-323-Project-2---32737742\obj\Debug\netcoreapp3.1\Project2-API.genruntimeconfig.cache
+E:\Universiteit\Year 3\Semester 2\CMPG 323\API P2\P2 Clone\CMPG-323-Project-2---32737742\obj\Debug\netcoreapp3.1\Project2-API.MvcApplicationPartsAssemblyInfo.cs
+E:\Universiteit\Year 3\Semester 2\CMPG 323\API P2\P2 Clone\CMPG-323-Project-2---32737742\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Universiteit\Year 3\Semester 2\CMPG 323\API P2\P2 Clone\CMPG-323-Project-2---32737742\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Universiteit\Year 3\Semester 2\CMPG 323\API P2\P2 Clone\CMPG-323-Project-2---32737742\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Universiteit\Year 3\Semester 2\CMPG 323\API P2\P2 Clone\CMPG-323-Project-2---32737742\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Universiteit\Year 3\Semester 2\CMPG 323\API P2\P2 Clone\CMPG-323-Project-2---32737742\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+E:\Universiteit\Year 3\Semester 2\CMPG 323\API P2\P2 Clone\CMPG-323-Project-2---32737742\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+E:\Universiteit\Year 3\Semester 2\CMPG 323\API P2\P2 Clone\CMPG-323-Project-2---32737742\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+E:\Universiteit\Year 3\Semester 2\CMPG 323\API P2\P2 Clone\CMPG-323-Project-2---32737742\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+E:\Universiteit\Year 3\Semester 2\CMPG 323\API P2\P2 Clone\CMPG-323-Project-2---32737742\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Universiteit\Year 3\Semester 2\CMPG 323\API P2\P2 Clone\CMPG-323-Project-2---32737742\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
