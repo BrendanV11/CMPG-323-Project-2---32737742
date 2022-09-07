@@ -24,6 +24,13 @@
  <h3>To use Delete {id}</h3>
 <p>Delete simply removes the element at the index that the id points to</p>
 
+<h2>Steps tp follow:</h2>
+<ol>
+  <li>Under the authenticate tab, use the login details that will be provided upon submission to log in with a user.</li>
+  <li>After execution and the token has been generated, go to the authorize tab and insert "Bearer TOKEN".</li>
+    <li>After access has been granted you now have authorization to use the endpoints freely</li>
+</ol>
+
 <h2>Reference list</h2>
 
 <p>https://github.com/BrendanV11/CMPG-323-Project-2---32737742/files/9506131/References.pdf</p>
