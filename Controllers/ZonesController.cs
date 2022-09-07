@@ -121,6 +121,7 @@ namespace Project2_API.Controllers
         }
 
 
+        //Patch
         [HttpPatch]
         public async Task<ActionResult<Zone>> PatchZone(Zone zone)
         {
