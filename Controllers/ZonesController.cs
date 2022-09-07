@@ -119,5 +119,30 @@ namespace Project2_API.Controllers
         {
             return _context.Zone.Any(e => e.ZoneId == id);
         }
+
+
+        [HttpPatch]
+        public async Task<ActionResult<Zone>> PatchZone(Zone zone)
+        {
+            _context.Zone.Add(zone);
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateException)
+            {
+                if (ZoneExists(zone.ZoneId))
+                {
+                    _context.Zone.Update(zone);
+                }
+                else
+                {
+                    return Conflict();
+                }
+            }
+
+            return CreatedAtAction("GetZone", new { id = zone.ZoneId }, zone);
+        }
+
     }
 }

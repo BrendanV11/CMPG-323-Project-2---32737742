@@ -121,5 +121,31 @@ namespace Project2_API.Controllers
         {
             return _context.Device.Any(e => e.DeviceId == id);
         }
+
+
+        //PATCH ATTEMPT ---------------------------------
+
+        [HttpPatch]
+        public async Task<ActionResult<Device>> PatchZone(Device device)
+        {
+            _context.Device.Add(device);
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateException)
+            {
+                if (DeviceExists(device.DeviceId))
+                {
+                    _context.Device.Update(device);
+                }
+                else
+                {
+                    return Conflict();
+                }
+            }
+
+            return CreatedAtAction("GetDevice", new { id = device.CategoryId }, device);
+        }
     }
 }
