@@ -1,4 +1,5 @@
 # Project-2---API-Development
+<p>This project use user authentication so you need to log in with a user and authorize that user to use operate freely</p>
 
 <h3>Endpoints</h3>
   <ul>
@@ -30,6 +31,8 @@
   <li>After execution and the token has been generated, go to the authorize tab and insert "Bearer TOKEN".</li>
     <li>After access has been granted you now have authorization to use the endpoints freely</li>
 </ol>
+
+
 
 <h2>Reference list</h2>
 
