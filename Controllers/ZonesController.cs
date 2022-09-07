@@ -120,7 +120,7 @@ namespace Project2_API.Controllers
             return _context.Zone.Any(e => e.ZoneId == id);
         }
 
-        [HttpPatch]
+/*        [HttpPatch]
         public async Task<ActionResult<Zone>> PatchZone(Zone zone)
         {
             _context.Zone.Add(zone);
@@ -141,6 +141,6 @@ namespace Project2_API.Controllers
             }
 
             return CreatedAtAction("GetZone", new { id = zone.ZoneId }, zone);
-        }
+        }*/
     }
 }

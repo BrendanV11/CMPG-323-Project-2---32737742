@@ -122,7 +122,7 @@ namespace Project2_API.Controllers
             return _context.Device.Any(e => e.DeviceId == id);
         }
 
-        [HttpPatch]
+/*        [HttpPatch]
         public async Task<ActionResult<Device>> PatchCategory(Device device)
         {
             _context.Device.Add(device);
@@ -143,6 +143,6 @@ namespace Project2_API.Controllers
             }
 
             return CreatedAtAction("GetDevice", new { id = device.CategoryId }, device);
-        }
+        }*/
     }
 }

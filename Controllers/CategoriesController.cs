@@ -123,7 +123,7 @@ namespace Project2_API.Controllers
             return _context.Category.Any(e => e.CategoryId == id);
         }
 
-        [HttpPatch]
+/*        [HttpPatch]
         public async Task<ActionResult<Category>> PatchCategory(Category category)
         {
             _context.Category.Add(category);
@@ -144,7 +144,7 @@ namespace Project2_API.Controllers
             }
 
             return CreatedAtAction("GetCategory", new { id = category.CategoryId }, category);
-        }
+        }*/
 
     }
 }
