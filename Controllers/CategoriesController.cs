@@ -100,6 +100,8 @@ namespace Project2_API.Controllers
             return CreatedAtAction("GetCategory", new { id = category.CategoryId }, category);
         }
 
+       
+
         // DELETE: api/Categories/5
         [HttpDelete("{id}")]
         public async Task<ActionResult<Category>> DeleteCategory(Guid id)
@@ -120,5 +122,6 @@ namespace Project2_API.Controllers
         {
             return _context.Category.Any(e => e.CategoryId == id);
         }
+
     }
 }
