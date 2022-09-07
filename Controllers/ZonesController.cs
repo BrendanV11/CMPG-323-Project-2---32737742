@@ -120,8 +120,6 @@ namespace Project2_API.Controllers
             return _context.Zone.Any(e => e.ZoneId == id);
         }
 
-
-        //Patch
         [HttpPatch]
         public async Task<ActionResult<Zone>> PatchZone(Zone zone)
         {
