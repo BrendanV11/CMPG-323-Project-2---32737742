@@ -123,5 +123,29 @@ namespace Project2_API.Controllers
             return _context.Category.Any(e => e.CategoryId == id);
         }
 
+
+        [HttpPatch]
+        public async Task<ActionResult<Category>> PatchCategory(Category category)
+        {
+            _context.Category.Add(category);
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateException)
+            {
+                if (CategoryExists(category.CategoryId))
+                {
+                    _context.Category.Update(category);
+                }
+                else
+                {
+                    return Conflict();
+                }
+            }
+
+            return CreatedAtAction("GetCategory", new { id = category.CategoryId }, category);
+        }
+
     }
 }
