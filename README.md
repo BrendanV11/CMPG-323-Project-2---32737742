@@ -1,5 +1,5 @@
 # Project-2---API-Development
-<p>This project use user authentication so you need to log in with a user and authorize that user to use operate freely</p>
+<p>This project use user authentication so you need to log in with a user and authorize that user to operate freely</p>
 
 <h3>Endpoints</h3>
   <ul>
