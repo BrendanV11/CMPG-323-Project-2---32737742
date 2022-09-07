@@ -23,3 +23,7 @@
 
  <h3>To use Delete {id}</h3>
 <p>Delete simply removes the element at the index that the id points to</p>
+
+<h2>Reference list</h2>
+
+<p>https://github.com/BrendanV11/CMPG-323-Project-2---32737742/files/9506131/References.pdf</p>
