@@ -1,4 +1,5 @@
 # Project-2---API-Development
+<p>You will need to go into my api-v01 branch to be able to see that my initial commit was made sometime ago, this is beacause I had to change my main branch to accomodate more things that had to be added to the gitignore and that basically reset the main branch.</p>
 <p>This project use user authentication so you need to log in with a user and authorize that user to operate freely</p>
 
 <h3>Endpoints</h3>
